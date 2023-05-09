@@ -6,14 +6,18 @@ int main()
 {
   setlocale(LC_ALL, "Portuguese");
 
+
   int h_i, min_i, h_f, min_f, durac_h = 0, durac_m = 0;
 
+
+  //Inicio dos inputs do usuÃ¡rio
   printf("Digite a hora de inicio do jogo: ");
   scanf("%d %d", &h_i, &min_i);
 
   printf("Digite a hora do fim do jogo: ");
   scanf("%d %d", &h_f, &min_f);
 
+  //Inicio das condicionais
   if ((min_i > min_f))
   {
     min_f = min_f + 60;
@@ -35,7 +39,7 @@ int main()
     durac_h = h_f - h_i;
   }
 
-  printf("A duração foi de %d:%d,", durac_h, durac_m);
+  printf("A duraï¿½ï¿½o foi de %d:%d,", durac_h, durac_m);
 
   return 0;
 }

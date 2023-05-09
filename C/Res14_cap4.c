@@ -8,24 +8,28 @@ int main()
 
   float sal, novosal, auxilio;
 
-  printf("Digite seu salário: ");
+
+  //Input do usuÃ¡rio
+  printf("Digite seu salï¿½rio: ");
   scanf("%f", &sal);
 
+
+  //Inicio dsa condicionais
   if ((sal <= 500) && (sal <= 600))
   {
     auxilio = 150;
     novosal = sal + (sal * 0.05) + auxilio;
-    printf("Seu novo salário é de: %.2f", novosal);
+    printf("Seu novo salï¿½rio ï¿½ de: %.2f", novosal);
   }
   else if ((sal >= 500) && (sal <= 1200) && (sal > 600))
   {
     auxilio = 150;
     novosal = sal + (sal * 0.12) + auxilio;
-    printf("Seu novo salário é de: %.2f", novosal);
+    printf("Seu novo salï¿½rio ï¿½ de: %.2f", novosal);
   }
   else
   {
-    printf("Seu salário não foi modificado");
+    printf("Seu salï¿½rio nï¿½o foi modificado");
   }
 
   return 0;

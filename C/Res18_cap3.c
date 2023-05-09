@@ -6,11 +6,12 @@ int main()
 {
   setlocale(LC_ALL, "Portuguese");
 
-  float x, y, z;
+  float x=0, y=0, z=0;
 
   x = 50;
   y = 5;
   z = 7;
+
 
   if ((x < y + z) && (y < +x + z) && (z < x + y))
   {
@@ -20,7 +21,7 @@ int main()
     }
     else if ((x == z) || (x == y) || (y == z))
     {
-      printf("Triangulo isósceles");
+      printf("Triangulo isï¿½sceles");
     }
     else if ((x != z) && (x != y) && (z != y))
     {
@@ -29,7 +30,7 @@ int main()
   }
   else
   {
-    printf("Não foi possível formar um triangulo");
+    printf("Nï¿½o foi possï¿½vel formar um triangulo");
   }
 
   return 0;
