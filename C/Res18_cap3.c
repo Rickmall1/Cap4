@@ -12,7 +12,7 @@ int main()
   y = 5;
   z = 7;
 
-
+  //Tipos de triangulo:
   if ((x < y + z) && (y < +x + z) && (z < x + y))
   {
     if ((x == y) && (y == z))

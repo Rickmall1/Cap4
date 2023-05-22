@@ -9,7 +9,7 @@ int main()
   //Variaveis de apoio
   float sal_bruto, sal_min, horas_trab, horas_trab_val, dependente, dependente_val, hora_extra, hora_extra_val, sal_mes;
 
-  //
+  //Inputs do usuário
   printf("insira o valor do sal?rio minimo: ");
   scanf("%f", &sal_min);
 
