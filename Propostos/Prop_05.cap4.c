@@ -19,6 +19,9 @@ int main()
     printf("Digite 1 para média;\nDigite 2 para diferença do maior pelo menor;\nDigite 3 para produto entre os números digitados;\nDigite 5 para divisão do primeiro pelo segundo:\n");
     scanf("%d", &state);
 
+
+
+    //Inicio do switch
     switch(state){
     case 1:
         float media = num1+num2/2.0;

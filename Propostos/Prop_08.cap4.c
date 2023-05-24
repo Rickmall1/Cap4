@@ -12,15 +12,18 @@ int main()
     printf("Digite seu salário: %.2f\n");
     scanf("%f", &hire);
 
-    if((hire<500))
+    //Salário reajustado
+    if((hire<=300))
     {
-       float soma = hire*0.3;
+       float soma = hire*0.35;
        newhire = soma+hire;
        printf("Seu novo salário é de: %.2f\n", newhire);
     }
     else
     {
-       printf("Salário inalterado");
+       float soma = hire*0.15;
+       newhire = soma+hire;
+       printf("Seu novo salário é de: %.2f\n", newhire);
     }
   return 0;
 }

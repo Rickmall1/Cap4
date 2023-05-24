@@ -6,9 +6,11 @@ int main()
 {
   setlocale(LC_ALL, "Portuguese");
 
+  //VARIAVEIS DE APOIO
   float num1,num2;
   int state;
   
+  //Inputs do usuario
   printf("Digite o primeiro número: \n");
   scanf("%f", &num1);
 
@@ -18,6 +20,7 @@ int main()
   printf("Digite 1 para o primeiro número elevado ao segundo número\nDigite 2 para raiz quadrada de cada um dos números\nDigite 3 para raiz cúbica de cada um dos números:\n");
   scanf("%d", &state);
 
+  //Inicio das condicionais
   if((state<1 || state>3))
   {
     printf("Erro, opção invalida.");
